@@ -1,7 +1,7 @@
 # FMEL-autologin
 Script to auto login the captive portal of FMEL's wifi
 
-Replace < username > and < password > (also replace < and >) in credentials.py with your FMEL username and FMEL password.
+Replace < username > and < password > (also replace < and >) in credentials.py with your FMEL username and FMEL password.  
 Replace < path to autologin.py > with the path to the autologin.py file
 
 run by running FMELautologin.sh
