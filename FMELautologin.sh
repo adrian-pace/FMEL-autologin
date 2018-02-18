@@ -1,3 +1,3 @@
 #!/bin/sh
 
-python /Users/pace/github/FMEL-autologin/autologin.py
+python <path to autologin.py>
