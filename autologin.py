@@ -48,6 +48,6 @@ print('Connected to the Internet')
 
 # COMMENT THIS IF NOT ON MAC
 # $ [sudo] gem install terminal-notifier
-os.system("terminal-notifier -title 'FMEL Auto Login' "
-          "-subtitle 'Connected to Internet' "
-          "-message 'You are now connected to the internet'")
+# os.system("terminal-notifier -title 'FMEL Auto Login' "
+#           "-subtitle 'Connected to Internet' "
+#           "-message 'You are now connected to the internet'")
