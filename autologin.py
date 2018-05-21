@@ -8,9 +8,9 @@ PASSWORD = credentials.PASSWORD
 # testing internet connection
 
 r=requests.get("http://google.com")
-if r.status_code==200:
+if 'world-connect' not in r.text:
     print('connected to the internet')
-    return
+    exit()
 
 
 headers = {"Upgrade-Insecure-Requests": "1",
