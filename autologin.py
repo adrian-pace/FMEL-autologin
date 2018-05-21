@@ -5,6 +5,14 @@ import credentials
 USERNAME = credentials.USERNAME
 PASSWORD = credentials.PASSWORD
 
+# testing internet connection
+
+r=requests.get("http://google.com")
+if r.status_code==200:
+    print('connected to the internet')
+    return
+
+
 headers = {"Upgrade-Insecure-Requests": "1",
            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36",
            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
